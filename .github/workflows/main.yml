@@ -3,7 +3,7 @@ name: Deploy with Docker and Terraform
 on:
   push:
     branches:
-      - main
+      - samplecicd
   workflow_dispatch:
 
 
