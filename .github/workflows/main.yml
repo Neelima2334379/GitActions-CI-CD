@@ -42,6 +42,8 @@ jobs:
 
       - name: Check Docker container
         run: docker run -d -p 8000:80 my-app-image:2
+        run: docker ps
+        run: docker ps -a
 
 # #stage-3
 #   # ecr-image:
