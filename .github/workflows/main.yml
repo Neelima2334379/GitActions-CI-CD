@@ -40,6 +40,8 @@ jobs:
       - name: Check Docker Images
         run: docker images -a 
 
+      - name: Check Docker container
+        run: docker run -d -p 8000:80 my-app-image:2
 
 # #stage-3
 #   # ecr-image:
